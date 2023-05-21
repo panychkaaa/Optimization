@@ -16,3 +16,6 @@
 - Process Explorer
 - SDIO
 - TimerResolution
+- TCPOptimizer
+- Win 10 Tweaker
+- WinCry
