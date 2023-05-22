@@ -2,7 +2,7 @@
 2) Отключить уведомления операционной системы
 3) Таймер событий высокой точности - HPET (Командная строка: bcdedit /set useplatformtick Yes, bcdedit /set disabledynamictick yes, bcdedit /enum)
 4) Timer Resolution (Нужное значение: 0.500 ms)
-5) Interrupt Affinity Policy (PCIe Controller, Видеокарта, Хост контроллер - Предпоследнее ядро)
+5) Interrupt Affinity Policy (Не обязательно)
 6) MSI Mode
 7) Отключить автоматическое обновление
 8) Отключить брандмауэр (HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Services\mpssvc - Start = 4)
