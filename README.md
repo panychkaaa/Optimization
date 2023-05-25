@@ -4,7 +4,7 @@
 - Отключить уведомления операционной системы
 - Таймер событий высокой точности - HPET (Командная строка: bcdedit /set useplatformtick Yes, bcdedit /set disabledynamictick yes, bcdedit /enum)
 - Timer Resolution (Нужное значение: 0.500 ms)
-- Interrupt Affinity Policy (Не обязательно)
+- Interrupt Affinity Policy (Видеокарта и хост контроллер: по разным ядрам)
 - MSI Mode
 - Отключить автоматическое обновление
 - Отключить брандмауэр (HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Services\mpssvc - Start = 4)
