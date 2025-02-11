@@ -1,5 +1,3 @@
-# Погнале
-
 - Активировать учетную запись администратора (Командная строка: net user administrator или Администратор /active:yes)
 - Отключить уведомления операционной системы
 - Таймер событий высокой точности - HPET (Командная строка: bcdedit /set useplatformtick Yes, bcdedit /set disabledynamictick yes, bcdedit /enum)
@@ -21,3 +19,13 @@
 - Выбрать режим управления электропитанием "Предпочтителен режим максимальной производительности" (Панель управления nvidia: dwm.exe, explorer.exe)
 - Электропитание (USB 3 Link Power Mangement - Off, Минимальное состояние процессора - 100%, Максимальное состояние процессора - 100%)
 - Юзеры: netplwiz
+- bcdedit /set disabledynamictick yes
+- bcdedit /set useplatformclock false
+- tpm.msc
+-taskschd.msc
+- gpedit.msc
+- msinfo32
+- netsh interface ipv4 show subinterfaces
+- netsh interface ipv4 set subinterface Ethernet mtu=1492 store=persistent
+- PowerShell Disable-NetAdapterPowerManagement -Name "*"
+- PowerShell Set-NetOffloadGlobalSetting -PacketCoalescingFilter Disabled
